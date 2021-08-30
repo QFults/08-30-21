@@ -64,6 +64,34 @@
 //     break
 // }
 
-const movies = require('./movies.js')[0]
+// const movies = require('./movies.js')[0]
 
-console.log(movies)
+// console.log(movies)
+
+// const movies = require('./movies.js')
+// const songs = require('./songs.js')
+// const [, , favorites] = process.argv
+
+// switch (favorites) {
+//   case 'movies':
+//     console.log(movies)
+//     break
+//   case 'songs':
+//     console.log(songs)
+//     break
+// }
+
+// const fs = require('fs')
+
+// fs.writeFile('some.txt', 'some other text', err => {
+//   if (err) { console.log(err) }
+// })
+
+// fs.readFile('some.txt', 'utf8', (err, data) => {
+//   if (err) { console.log(err) }
+//   console.log(data)
+// })
+
+// fs.appendFile('some.txt', 'some more text', err => {
+//   if (err) { console.log(err) }
+// })
